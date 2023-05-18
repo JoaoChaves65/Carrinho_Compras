@@ -1,4 +1,7 @@
 import React from 'react';
+import { GrCart } from 'react-icons/gr';
+
+import './ProductCard.css';
 
 function ProductCard() {
   return (
@@ -11,7 +14,9 @@ function ProductCard() {
         <h2 className="card_title">Iphone</h2>
       </div>
 
-      <button type="button" className="card_add-cart">+</button>
+      <button type="button" className="button_add-cart">
+        <GrCart />
+      </button>
     </section>
   );
 }
